@@ -3,13 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f0eded;
+}
 .header-container{
     display: flex;
-    justify-content: space-between;
-    margin: 10px auto;
+    justify-content: space-around;
+    margin: 0 auto;
     align-items: center;
     height: 54px;
-    width: 1250px;
+    width: 100%;
+    background-color: white;
 }
 .logo-container{
     display: flex;
