@@ -83,6 +83,7 @@ hr {
     display: flex;
     width: 614px;
     padding: 20px 25px;
+    padding-bottom: 40px;
     gap: 25px;
     overflow-x: auto;
     border: 2px solid #DBDBDB;
@@ -246,6 +247,68 @@ span{
 }
 strong{
     font-weight: 500;
+}
+.footer{
+    display: none;
+}
+@media (max-width: 934px) {
+    .sidebar-container{
+        display: none;
+    }
+    .posts{
+        margin-left:auto ;
+        margin-right: auto;
+    }
+}
+@media (max-width: 614px) {
+    .header-container{
+        padding: 0 10px;
+    }
+    .logo-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo_insta{
+        margin: 0 auto;
+    }
+    #input-search{
+        display: none;
+    }
+    .logo-container hr{
+        display: none;
+    }
+    .posts{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+    .stories{
+        margin-top: 0;
+        background-color: none;
+    }
+    .heart, .compass, .person{
+        display: none;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: #FAFAFA;
+        border: 2px solid #DBDBDB;
+        position: fixed;
+        height: 54px;
+        bottom: 0;
+        width: 100%;
+    }
+    .footer-icons__div{
+        display: flex;
+        align-items: center;
+        gap: 115px;
+    }
+    .footer-icons{
+        width: 22px;
+        height: 22px
+    }
 }
 
 
