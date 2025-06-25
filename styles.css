@@ -66,6 +66,10 @@ hr {
     justify-content: center;
     margin: 0 auto;
 }
+.feed{
+    display: flex;
+    flex-direction: column;
+}
 .stories{
     display: flex;
     justify-content: center;
@@ -120,7 +124,6 @@ hr {
     flex-direction: column;
     width: 293px;
     margin-left: 30px;
-    justify-content: center;
 }
 .sidebar-head{
     display: flex;
@@ -176,3 +179,72 @@ span{
     flex-direction: column;
     gap: 20px;
 }
+.posts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 614px;
+    background-color: #FAFAFA;
+    border: 2px solid #DBDBDB;
+}
+.post-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px 10px 20px;
+}
+.post-icon{
+    width: 22px;
+    height: 22px;
+    margin: 0 4px;
+}
+.post-icon__top{
+    margin-left: auto;
+    width: 16px;
+    height: 16px;
+}
+.post-icon__bottom{
+    margin-left: auto;
+    padding: 0 20px;
+    width: 22px;
+    height: 22px;
+}
+.post-text__top{
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+}
+.post-logo{
+    width: 32px;
+    height: 32px;
+}
+.post-bottom{
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+}
+.post-bottom__img{
+    width: 20px;
+    height: 20px;
+}
+.post-bottom__info{
+    display: flex;
+    gap: 5px;
+    padding: 0 20px 10px 20px;
+    align-items: center;
+}
+.post-bottom__text{
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+}
+strong{
+    font-weight: 500;
+}
+
+
