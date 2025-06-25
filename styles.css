@@ -191,6 +191,7 @@ span{
     width: 614px;
     background-color: #FAFAFA;
     border: 2px solid #DBDBDB;
+    margin-bottom: 36px;
 }
 .post-top{
     display: flex;
