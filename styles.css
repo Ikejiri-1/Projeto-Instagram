@@ -6,9 +6,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
+
 main {
     background-color: #F0eded;
 }
@@ -68,11 +70,13 @@ hr {
     justify-content: center;
     margin: 0 auto;
 }
-.feed{
+
+.feed {
     display: flex;
     flex-direction: column;
 }
-.stories{
+
+.stories {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -98,7 +102,8 @@ hr {
     font-size: 12px;
     align-items: center;
 }
-.story p{
+
+.story p {
     margin-top: 6px;
     font-size: 12px;
     font-weight: 400;
@@ -106,6 +111,7 @@ hr {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .ring {
     width: 66px;
     height: 66px;
@@ -119,7 +125,8 @@ hr {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    background-color: white; /* evita transparência estranha */
+    background-color: white;
+    /* evita transparência estranha */
 }
 
 .sidebar-container {
@@ -128,52 +135,62 @@ hr {
     width: 293px;
     margin-left: 30px;
 }
-.sidebar-head{
+
+.sidebar-head {
     display: flex;
     align-items: center;
     margin-top: 60px;
     gap: 20px;
 }
-.sidebar-head p{
+
+.sidebar-head p {
     font-size: 14px;
     font-weight: 500;
 }
-span{
+
+span {
     color: #8E8E8E;
 }
-.sidebar-head span{
-    font-size:14px;
+
+.sidebar-head span {
+    font-size: 14px;
     font-weight: 300;
 }
-.sidebar-mid{
+
+.sidebar-mid {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
     font-weight: 500;
     margin: 30px 0;
 }
-.for-you{
+
+.for-you {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
 }
-.for-you p{
+
+.for-you p {
     font-size: 14px;
     font-weight: 500px;
 }
-.for-you span{
+
+.for-you span {
     font-size: 12px;
     font-weight: 400;
     margin-top: 4px;
 }
-.for-you button{
+
+.for-you button {
     margin-left: auto;
     border: none;
     font-size: 12px;
     font-weight: 500;
     color: #3897f0;
 }
-.sidebar-footer{
+
+.sidebar-footer {
     font-size: 11px;
     font-weight: 400;
     color: #c7c7c7;
@@ -182,12 +199,14 @@ span{
     flex-direction: column;
     gap: 20px;
 }
-.posts{
+
+.posts {
     display: flex;
     flex-direction: column;
     margin-top: 24px;
 }
-.post{
+
+.post {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -196,72 +215,87 @@ span{
     border: 2px solid #DBDBDB;
     margin-bottom: 36px;
 }
-.post-top{
+
+.post-top {
     display: flex;
     align-items: center;
     gap: 10px;
     padding: 20px 20px 10px 20px;
 }
-.post-icon{
+
+.post-icon {
     width: 22px;
     height: 22px;
     margin: 0 4px;
 }
-.post-icon__top{
+
+.post-icon__top {
     margin-left: auto;
     width: 16px;
     height: 16px;
 }
-.post-icon__bottom{
+
+.post-icon__bottom {
     margin-left: auto;
     padding: 0 20px;
     width: 22px;
     height: 22px;
 }
-.post-text__top{
+
+.post-text__top {
     font-size: 14px;
     font-weight: 500;
     color: #262626;
 }
-.post-logo{
+
+.post-logo {
     width: 32px;
     height: 32px;
 }
-.post-bottom{
+
+.post-bottom {
     display: flex;
     gap: 10px;
     margin-left: 15px;
 }
-.post-bottom__img{
+
+.post-bottom__img {
     width: 20px;
     height: 20px;
 }
-.post-bottom__info{
+
+.post-bottom__info {
     display: flex;
     gap: 5px;
     padding: 0 20px 10px 20px;
     align-items: center;
 }
-.post-bottom__text{
+
+.post-bottom__text {
     font-size: 14px;
     font-weight: 300;
     color: #000000;
 }
-strong{
+
+strong {
     font-weight: 500;
 }
-.footer{
+
+.footer {
     display: none;
 }
+
 @media (max-width: 934px) {
-    .sidebar-container{
+    .sidebar-container {
         display: none;
     }
-    .posts{
-        margin-left:auto ;
+
+    .posts {
+        margin-left: auto;
         margin-right: auto;
     }
 }
+
 @media (max-width: 614px) {
     .header-container {
         padding: 0 10px;
@@ -288,11 +322,27 @@ strong{
         margin-bottom: 16px;
     }
 
-    .post, .stories-container {
+    .post,
+    .stories-container {
         width: 100%;
         max-width: 100%;
         border-left: none;
         border-right: none;
+    }
+
+    .post-top {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .post-bottom {
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+
+    .post-bottom__info {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .stories {
@@ -300,7 +350,9 @@ strong{
         background-color: transparent;
     }
 
-    .heart, .compass, .person {
+    .heart,
+    .compass,
+    .person {
         display: none;
     }
 
@@ -322,5 +374,3 @@ strong{
         height: 22px;
     }
 }
-
-
